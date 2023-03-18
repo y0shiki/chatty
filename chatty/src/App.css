@@ -4,7 +4,15 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 10;
   height: 75px;
   background-color: #5ab6fd;
+}
+h1 {
+  color: white;
+  
+}
+.Head{
+  padding-bottom: 10px;
+  margin-bottom: 80px;
+
 }
