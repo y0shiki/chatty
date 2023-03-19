@@ -10,7 +10,8 @@ So what are you waiting for? Let's get chatting!
 
 ## Installation
 - Clone the repository to your local machine.
-- Install the required dependencies using the command: npm install.
+- Install the required dependencies using the command: 
+        npm install.
 
 ## Usage
 - Obtain an API key from OpenAI API by creating an account on the OpenAI website and following the instructions.
