@@ -1,6 +1,5 @@
 
-# Chatty Chatbot
-
+# Chatty Chatbot 🤖
 Chatty is your friendly chatbot that can help you with your computer science studies or just be there to chat with you like a friend. Simply type in your questions or thoughts and Chatty will respond with informative answers or engaging conversations.
 
 Whether you're trying to understand a difficult concept or just need someone to talk to, Chatty is always here for you. And the best part is that Chatty uses advanced Natural Language Processing techniques powered by the OpenAI API, so you can expect accurate and helpful responses every time.
