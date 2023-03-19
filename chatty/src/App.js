@@ -54,7 +54,7 @@ function App() {
 
       const apiRequestBody = {
           "model": "gpt-3.5-turbo",
-          "messages": [...apiMessage]
+          "messages": [systemMessage, ...apiMessage]
       }
 
       await fetch("https://api.openai.com/v1/chat/completions", {
@@ -68,6 +68,11 @@ function App() {
         return data.json();
       }).then((data) => {
         console.log(data)
+        setMessages([...chatMessages, {
+          message: data.choices[0].message.content,
+          sender: "Chatty"
+        }]);
+        setTyping(false);
       });
   }
 
