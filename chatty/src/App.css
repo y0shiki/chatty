@@ -8,11 +8,21 @@ header {
   background-color: #5ab6fd;
 }
 h1 {
-  color: white;
-  
+  color: #fff;
+  text-shadow:
+    /* white glow  */
+    0 0 2px #fff,
+    0 0 2px #fff,
+    0 0 5px #fff
+    /* blue glow  */
+    /* 0 0 42px rgb(0, 213, 255),
+    0 0 82px rgb(0, 213, 255),
+    0 0 92px rgb(0, 213, 255),
+    0 0 102px rgb(0, 213, 255),
+    0 0 151px rgb(0, 213, 255); */
 }
 .Head{
-  padding-bottom: 10px;
-  margin-bottom: 80px;
+  padding-bottom: 1px;
+  margin-bottom: 8%;
 
 }
